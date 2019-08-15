@@ -1,0 +1,80 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+#backgroundTop{
+background-image: url(../images/bgtile.png);
+background-repeat: repeat-x;
+height:225px;
+}
+
+/* #textBox{
+  background-image: url(../images/frame.png);
+  height: 300px;
+  width:250px;
+} */
+h1{
+  color: #06365f;
+}
+a{
+text-decoration:none;
+  color: #06365f;
+}
+#greys{
+  color: grey;
+}
+
+
+
+
+.overImage{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 500px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+#bottomHalf{
+  display: flex;
+  justify-content: center;
+position: relative;
+bottom: 70px;
+}
+#bottemHalf a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#bottomNav{
+  display: inline-flex;
+  position: relative;
+  left: 30%;
+  padding-top: 20px;
+}
+nav a {
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#phone{
+  position: relative;
+  top:-70px;
+  padding-right:30px
+}
+.boxesinsta{
+  position: relative;
+  top: -60px;
+}
